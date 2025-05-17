@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+*{
+    margin: 0 auto ;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+
+}
+.body1{
+    background-color: #252525;
+    color: white;
+}
+.main{
+    width: 1400px;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-h1{
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: black;
+    margin-top: 40px;
+}
+.zag1{
+    font-family: Kanit;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+    margin-top: 40px;
+}
+#zapis{
+    width: 595px;
+    height: 38px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    gap: 436px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+.span{
+    color: black;
+}
+.span1{
+    color:white;
+}
+.input1{
+    width: 595px;
+    height: 38px;
+    padding-top: 8px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    gap: 436px;
+    margin-top: 18px;
+    border-radius: 5px;
+    border-width: 1px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    
+    background-color: #252525;
+}
+#send{
+    width: 64px;
+    height: 38px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background: #6C63FF;
+    font-family: Kanit;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    
+
+}
+#buttonight{
+    width: 38px;
+height: 38px;
+border: none;
+border-radius: 5px;
+background: #6C63FF;
+}
+.list-item{
+    width: 480px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+padding: 0 30px;
+    height: 73px;
+    border:  2px solid #6C63FF;
+    color: black;
+}
+.edit {
+    width: 30px;
+    height: 30px;
+}
+.edit-delete{
+    display: flex;
+    gap: 7px;
+}
+.delete {
+    width: 30px;
+    height: 30px;
+}
